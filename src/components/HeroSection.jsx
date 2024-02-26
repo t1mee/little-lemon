@@ -3,8 +3,7 @@ import "../components/styles/HeroSection.css";
 import { NavLink } from 'react-router-dom';
 import HeroImage from "../components/assets/gourmet.jpg"
 
-const HeroSection = () => {
-  return (
+export const HeroSection = () => (
     <div className="hero-section-background">
         <div className="hero-section-container">
             <div className="section-left">
@@ -21,6 +20,3 @@ const HeroSection = () => {
         </div>
     </div>
   )
-}
-
-export default HeroSection

@@ -1,13 +1,10 @@
 import React from 'react';
 import "../components/styles/Footer.css";
-import Logo from "../components/assets/logo.png";
 
-const Footer = () => {
-  return (
+export const Footer = () => (
     <div>
         <div className="footer-background">
             <div className="footer-container">
-                <img src={ Logo } alt="Little Lemon logo" />
                 <p>Little Lemon is a charming neighborhood bistro that serves simple food and classic cocktails in a lively but casual environment. The restaurant features a locally sourced menu with daily specials.</p>
                 <div className="footer-content">
                     <div className="locations">
@@ -37,12 +34,9 @@ const Footer = () => {
                     </div>
             </div>
             <div className="copyright">
-                <p>© 2023 Little Lemon Ltd. All rights reserved.</p>
+                <p>© 2024 Little Lemon Ltd. All rights reserved.</p>
             </div>
         </div>
         </div>
     </div>
   )
-}
-
-export default Footer

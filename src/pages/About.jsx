@@ -1,13 +1,9 @@
 import React from 'react';
-import Header from '../components/Header'
+import { Header } from '../components/HeaderElement'
 
-const About = () => {
-  return (
+export const About = () => (
     <div>
       <Header />
       <h1 style={{textAlign: "center", paddingTop: "15%"}}>About</h1>
     </div>
   )
-}
-
-export default About

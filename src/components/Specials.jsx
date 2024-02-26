@@ -2,8 +2,7 @@ import React from 'react'
 import "../components/styles/Specials.css"
 import SpecialsCard from './SpecialsCard'
 
-const Specials = () => {
-  return (
+export const Specials = () => (
     <div className="specials-section-container">
       <div className="specials-section-title">
             <h1>This Week's Specials</h1>
@@ -14,6 +13,3 @@ const Specials = () => {
       <SpecialsCard />
     </div>
   )
-}
-
-export default Specials
